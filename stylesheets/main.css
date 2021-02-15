@@ -1,0 +1,80 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/*h1,h2,h3,h4,h5,h6 {
+font-family: 'Lato', sans-serif;
+}*/
+
+.page-title {
+    font-family: 'Asap', sans-serif;
+    letter-spacing: 0.3em;
+}
+
+.text-shadow {
+    text-shadow: black 0.2em 0.2em 0.2em;
+}
+
+.light-background {
+    background: #f4f9f9;
+}
+
+.bg-main {
+    background: #4286f4;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-main-2 {
+    background: #373B44;
+    color: white !important;
+}
+
+.bg-main-3 {
+    background: #f6f5f5;
+}
+
+.bg-light {
+    background: #f4f9f9 !important;
+}
+
+.carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-modified {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+}
+
+.carousel-modified h1 {
+    font-size: 3vw;
+}
+
+.carousel-modified h3 {
+    font-size: 2.5vw;
+}
+
+.carousel-modified h5 {
+    font-size: 1.8vw;
+}
+
+.text-justify {
+    text-align: justify;
+}
